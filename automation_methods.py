@@ -52,7 +52,7 @@ def restart_and_resync_pms_interface_on_GUI(driver):
         EC.element_to_be_clickable((By.XPATH, "//input[@value='Restart']"))
     )
     restart_button.click()
-    time.sleep(15)  # Wait for 0.25 minute
+    time.sleep(2)  # Wait for 0.25 minute
 
     # Check for the 'Resync' button
     resync_button = WebDriverWait(driver, 10).until(
