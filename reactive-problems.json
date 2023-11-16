@@ -1,0 +1,32 @@
+{
+  "reactive-problems": [
+    {
+      "category": "PMS",
+      "description": "Checked PMS interfaces, pinged PMS, restart interface, resync database",
+      "name": "PMS",
+      "task-title": "PMS Issue",
+      "type": "Reactive"
+    },
+    {
+      "name": "Server",
+      "task-title": "Proactive server checks",
+      "description": "Proactive checks on services, status, et cetera",
+      "category": "Server",
+      "type": "Pro-active"
+    },
+    {
+      "name": "Server",
+      "task-title": "Reload remote configuration",
+      "description": "Reloaded remote configuration to check server status and troubleshooting RBA is still working",
+      "category": "Maintenance",
+      "type": "Phone Call"
+    },
+    {
+      "name": "General Query",
+      "task-title": "General Informational call",
+      "description": "Call related to general query and or drafting reports for client in question",
+      "category": "General Query",
+      "type": "Phone Call"
+    }
+  ]
+}
