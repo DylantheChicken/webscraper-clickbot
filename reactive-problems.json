@@ -1,11 +1,12 @@
 {
   "reactive-problems": [
+
     {
-      "category": "PMS",
-      "description": "Checked PMS interfaces, pinged PMS, restart interface, resync database",
-      "name": "PMS",
-      "task-title": "PMS Issue",
-      "type": "Reactive"
+      "name": "Bypass",
+      "task-title": "Bypass Guest Device",
+      "description": "Call to bypass a guest device",
+      "category": "Bypass",
+      "type": "Phone Call"
     }
   ]
 }

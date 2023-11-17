@@ -22,6 +22,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="automation_methods.py" />
+    <Compile Include="element_manipulation_methods.py" />
+    <Compile Include="navigation_methods.py" />
     <Compile Include="Python_Automatic_Login_and_Call_Logger.py" />
   </ItemGroup>
   <ItemGroup>
